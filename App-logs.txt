@@ -1,0 +1,164 @@
+19:25:21.216 [main] INFO  c.example.logging.LoggingApplication -
+19:25:21.249 [main] INFO  c.example.logging.LoggingApplication -
+19:25:24.296 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:25:24.312 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:25:24.314 [main] INFO  o.a.catalina.core.StandardService -
+19:25:24.314 [main] INFO  o.a.catalina.core.StandardEngine -
+19:25:24.598 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+19:25:24.608 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+19:25:25.482 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:25:25.586 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:25:25.601 [main] INFO  c.example.logging.LoggingApplication -
+19:25:32.167 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u1" name="User1"
+19:27:57.139 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u1" uname="User1"
+19:28:16.427 [main] INFO  c.example.logging.LoggingApplication -op="WRITEC" uid="u1" uname="User1" pname="p6" pid="p6"
+19:29:13.767 [main] INFO  c.example.logging.LoggingApplication -op="WRITEC" uid="u1" uname="User1" pname="product" pid="p7"
+19:29:30.200 [main] INFO  c.example.logging.LoggingApplication -op="WRITEU" uid="u1" uname="User1" pname="Cola" pid="p6"
+19:29:45.608 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u2" name="User2"
+19:29:56.532 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:29:56.785 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:29:57.007 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:29:57.210 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:29:57.422 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:29:57.604 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u2" uname="User2"
+19:30:20.800 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u3" name="User3"
+19:30:22.255 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u3" uname="User3"
+19:30:22.438 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u3" uname="User3"
+19:30:22.609 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u3" uname="User3"
+19:30:28.866 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u3" uname="User3" pname="Cola" pprice="35"
+19:30:36.435 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u3" uname="User3" pname="Cola" pprice="35"
+19:30:44.208 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u3" uname="User3" pname="Cheese" pprice="3"
+19:30:54.954 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u4" name="User4"
+19:30:57.108 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u4" uname="User4"
+19:30:57.280 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u4" uname="User4"
+19:30:57.451 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u4" uname="User4"
+19:30:57.549 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u4" uname="User4"
+19:31:00.524 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u4" uname="User4" pname="Milk" pprice="5"
+19:31:02.376 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u4" uname="User4" pname="Yoghurt" pprice="4"
+19:31:03.589 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u4" uname="User4" pname="Juice" pprice="2"
+19:31:16.446 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u5" name="User5"
+19:31:18.377 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u5" uname="User5"
+19:31:40.927 [main] INFO  c.example.logging.LoggingApplication -op="WRITEU" uid="u5" uname="User5" pname="Cake" pid="p7"
+19:31:53.782 [main] INFO  c.example.logging.LoggingApplication -op="WRITEC" uid="u5" uname="User5" pname="p8" pid="p8"
+19:31:58.462 [main] INFO  c.example.logging.LoggingApplication -op="WRITED" uid="u5" uname="User5" pid="p8"
+19:32:12.830 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u6" name="User6"
+19:32:14.385 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:14.658 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:15.731 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:18.024 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u6" uname="User6" pname="Cheese" pprice="3"
+19:32:19.672 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u6" uname="User6" pname="Milk" pprice="5"
+19:32:20.257 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:20.469 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:20.640 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:20.873 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u6" uname="User6"
+19:32:34.909 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u7" name="User7"
+19:33:00.215 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u7" uname="User7"
+19:33:00.416 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u7" uname="User7"
+19:33:00.597 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u7" uname="User7"
+19:33:00.780 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u7" uname="User7"
+19:33:00.952 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u7" uname="User7"
+19:33:03.275 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u7" uname="User7" pname="Cheese" pprice="3"
+19:33:04.962 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u7" uname="User7" pname="Yoghurt" pprice="4"
+19:33:24.367 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u8" name="User8"
+19:33:25.649 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u8" uname="User8"
+19:33:25.842 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u8" uname="User8"
+19:33:26.023 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u8" uname="User8"
+19:33:26.265 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u8" uname="User8"
+19:33:29.316 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u8" uname="User8" pname="Cola" pprice="35"
+19:33:34.885 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u8" uname="User8" pname="Cake" pprice="16"
+19:33:46.334 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u10" name="User10"
+19:33:49.599 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:49.792 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:49.982 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:50.165 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:50.346 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:50.528 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:50.691 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u10" uname="User10"
+19:33:57.480 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u10" uname="User10" pname="Cola" pprice="35"
+19:34:00.221 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u10" uname="User10" pname="Cola" pprice="35"
+19:34:03.666 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u10" uname="User10" pname="Cake" pprice="16"
+19:34:18.197 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u9" name="User9"
+19:34:20.158 [main] INFO  c.example.logging.LoggingApplication -op="READALL" uid="u9" uname="User9"
+19:34:47.430 [main] INFO  c.example.logging.LoggingApplication -op="WRITEC" uid="u9" uname="User9" pname="banana" pid="p9"
+19:35:02.227 [main] INFO  c.example.logging.LoggingApplication -op="WRITEC" uid="u9" uname="User9" pname="orange" pid="p10"
+19:35:19.623 [main] INFO  c.example.logging.LoggingApplication -op="WRITED" uid="u9" uname="User9" pid="p10"
+19:57:42.011 [main] INFO  c.example.logging.LoggingApplication -
+19:57:42.024 [main] INFO  c.example.logging.LoggingApplication -
+19:57:44.099 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:57:44.117 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:57:44.118 [main] INFO  o.a.catalina.core.StandardService -
+19:57:44.120 [main] INFO  o.a.catalina.core.StandardEngine -
+19:57:44.321 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+19:57:44.325 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+19:57:44.968 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:57:45.019 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:57:45.038 [main] INFO  c.example.logging.LoggingApplication -
+19:58:57.150 [main] INFO  c.example.logging.LoggingApplication -
+19:58:57.165 [main] INFO  c.example.logging.LoggingApplication -
+19:58:59.286 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:58:59.306 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:58:59.310 [main] INFO  o.a.catalina.core.StandardService -
+19:58:59.311 [main] INFO  o.a.catalina.core.StandardEngine -
+19:58:59.507 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+19:58:59.514 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+19:59:00.130 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+19:59:00.174 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+19:59:00.202 [main] INFO  c.example.logging.LoggingApplication -
+20:12:03.143 [main] INFO  c.example.logging.LoggingApplication -
+20:12:03.153 [main] INFO  c.example.logging.LoggingApplication -
+20:12:05.314 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:12:05.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:12:05.338 [main] INFO  o.a.catalina.core.StandardService -
+20:12:05.338 [main] INFO  o.a.catalina.core.StandardEngine -
+20:12:05.757 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+20:12:05.762 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+20:12:07.522 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:12:07.639 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:12:07.675 [main] INFO  c.example.logging.LoggingApplication -
+20:12:16.820 [main] INFO  c.example.logging.LoggingApplication -op="LOGIN" id="u8" name="User8"
+20:12:24.488 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:12:26.521 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:12:28.378 [main] INFO  c.example.logging.LoggingApplication -op="READONE" uid="u8" uname="User8" pname="Cheese" pprice="3"
+20:12:31.461 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:12:35.745 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:12:41.739 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:12:55.703 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:13:05.874 [main] ERROR c.example.logging.LoggingApplication -Message="ItemNotFound!"
+20:13:25.631 [main] ERROR c.example.logging.LoggingApplication -Message="ItemAlreadyExists!"
+20:13:35.261 [main] ERROR c.example.logging.LoggingApplication -Message="ItemAlreadyExists!"
+20:13:51.617 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:13:56.864 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:13:59.015 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:01.198 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:03.483 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:05.394 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:07.747 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:10.222 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:12.628 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:14.145 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:16.179 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:17.651 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:19.008 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:14:20.625 [main] ERROR c.example.logging.LoggingApplication -Message="InvalidCredentials!"
+20:17:29.059 [main] INFO  c.example.logging.LoggingApplication -
+20:17:29.073 [main] INFO  c.example.logging.LoggingApplication -
+20:17:31.051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:17:31.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:17:31.065 [main] INFO  o.a.catalina.core.StandardService -
+20:17:31.066 [main] INFO  o.a.catalina.core.StandardEngine -
+20:17:31.281 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+20:17:31.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+20:17:31.892 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:17:31.948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:17:31.974 [main] INFO  c.example.logging.LoggingApplication -
+20:19:06.138 [main] INFO  c.example.logging.LoggingApplication -
+20:19:06.148 [main] INFO  c.example.logging.LoggingApplication -
+20:19:08.100 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:19:08.125 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:19:08.129 [main] INFO  o.a.catalina.core.StandardService -
+20:19:08.131 [main] INFO  o.a.catalina.core.StandardEngine -
+20:19:08.357 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+20:19:08.363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+20:19:08.975 [main] INFO  o.a.coyote.http11.Http11NioProtocol -
+20:19:09.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+20:19:09.103 [main] INFO  c.example.logging.LoggingApplication -
